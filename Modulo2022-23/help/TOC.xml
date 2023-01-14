@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE toc
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 1.0//EN"
+         "http://java.sun.com/products/javahelp/toc_1_0.dtd">
+
+<toc version="1.0">
+  
+  <tocitem text="PAC-MAN" target="intro"/>
+  <tocitem text="Instrucciones" >
+  	<tocitem text="Cómo jugar" target="jugada"/>
+  	<tocitem text="Tipos de personajes" target="personajes"/>
+  	<tocitem text="Puntuación" target="puntos"/>
+  </tocitem>
+  <tocitem text="Fin de la partida" target="fin"/>
+
+</toc>

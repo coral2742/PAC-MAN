@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'PacmanFont';
+    src: url('../css/font/Pacmania.otf');
+}
+
+@font-face {
+    font-family: 'PixelFont';
+    src: url('../css/font/FreePixel.ttf');
+}
+
+
+* {
+	background-color: lightgoldenrodyellow;
+}
+
+h1 {
+	font-size: 60px;
+	font-family: PacmanFont;
+}
+
+h2 {
+	font-size: 30px;
+	font-family: PacmanFont;
+}
+
+h3 {
+	font-size: 20px;
+	font-family: PacmanFont;
+}
+
+p {
+	font-size: 20px;
+	font-family: PixelFont;
+	color: black;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+ul {
+	font-size: 20px;
+	font-family: PixelFont;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+footer p{
+	font-size: 18px;
+	font-weight: 800;
+}
+
+img {
+	width: 600px;
+	height: auto;
+}
