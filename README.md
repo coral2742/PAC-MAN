@@ -24,12 +24,19 @@ Se le pedirá al usuario que introduzca el código de la tienda y el número de 
 Se pedirá un código de tienda y un código de ticket. Cada código de ticket, tiene asociado un importe cuyo mínimo para poder optar al juego PACMAN es de 20 euros.
 
 Código de tienda: `33429_01`
+
 Códigos de ticket con importes:
-- `12314` (10 euros - No válido)
-- `24672` (110,75 euros - Válido)
-- `36517` (25,85 euros - Válido)
-- `16416` (20 euros - Válido)
-- `68234` (75 euros - Válido)
-- `49801` (19,95 euros - No válido)
+- `12314`
+    - 10 euros (No válido)
+- `24672`
+    - 110,75 euros (Válido)
+- `36517`
+    - 25,85 euros (Válido)
+- `16416`
+    - 20 euros (Válido)
+- `68234`
+    - 75 euros (Válido)
+- `49801`
+    - 19,95 euros (No válido)
 
 
