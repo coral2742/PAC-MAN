@@ -1,7 +1,7 @@
-# PACMAN - De vuelta a los clásicos de los 80
+# PAC-MAN - De vuelta a los clásicos de los 80
 Proyecto realizado para la asignatura de Comunicación Persona Máquina. Se planteó desarrollar una aplicación visual implementando un juego de estrategia con un tablero de juego y varios personajes basándose en el diseño de un videojuego de los años 80.
 
-![PACMAN - A game project for CPM](img/InicioPACMAN.png)
+![PAC-MAN - A game project for CPM](img/InicioPACMAN.png)
 
 ## Tabla de contenidos
 
@@ -13,7 +13,7 @@ Proyecto realizado para la asignatura de Comunicación Persona Máquina. Se plan
 
 
 ## Instalación
-PACMAN requiere `Java`.
+PAC-MAN requiere `Java`.
 
 
 ## Instrucciones
