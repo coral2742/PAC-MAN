@@ -4,7 +4,7 @@ Proyecto realizado para la asignatura de Comunicación Persona Máquina. Se plan
 ## Tabla de contenidos
 
 - [Introducción](#PACMAN)
-- [Instalación](#Instalacion)
+- [Instalación](#Instalación)
 - [Instrucciones](#Instrucciones)
 - [Códigos de tickets válidos](#Códigos-de-tickets-válidos)
 
