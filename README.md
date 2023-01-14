@@ -3,8 +3,8 @@ Proyecto realizado para la asignatura de Comunicación Persona Máquina. Se plan
 
 ## Tabla de contenidos
 
-- [Introducción] (#PACMAN)
-- [Instalación] (#Instalacion)
+- [Introducción](#PACMAN)
+- [Instalación](#Instalacion)
 
 
 ## Instalación
