@@ -18,7 +18,7 @@ Proyecto realizado para la asignatura de Comunicación Persona Máquina. Se plan
 - [Licencia](#Licencia)
 
 
-## 1. Introducción
+## Introducción
 
 
 
