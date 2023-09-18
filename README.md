@@ -7,7 +7,9 @@
 # PAC-MAN - Back to the classics of the 80's
 Project done for the subject of Human Machine Communication. It was proposed to develop a visual application in Java with Swing implementing a strategy game with a game board and several characters based on the design of a video game from the 80s.
 
-![PAC-MAN - A game project for CPM](img/InicioPACMAN.png)
+<p align="center">
+  <img src="img/English/StartWindow.png" alt="PAC-MAN - A game project for CPM">
+</>
 
 ## Table of Contents
 - [PAC-MAN - Back to the classics of the 80's](#pac-man---back-to-the-classics-of-the-80s)
@@ -15,8 +17,6 @@ Project done for the subject of Human Machine Communication. It was proposed to 
   - [Introduction](#introduction)
   - [Project structure](#project-structure)
   - [Installation (Windows)](#installation-windows)
-    - [Option 1](#option-1)
-    - [Option 2](#option-2)
   - [Instructions](#instructions)
     - [How to play](#how-to-play)
       - [Valid ticket codes](#valid-ticket-codes)
@@ -35,14 +35,6 @@ This application is internationalized, so it has the option to change the langua
 
 
 ## Installation (Windows)
-### Option 1
-In the [Releases](https://github.com/coral2742/PAC-MAN/releases) section an installer created with InstallAnyWhere has been uploaded with the first version [v1.0.0](https://github.com/coral2742/PAC-MAN/releases/tag/v1.0.0) of PAC-MAN.
-
-- Download the `.exe` file.
-- Double click on `PAC-MAN installer.exe` and follow the installer.
-- Once installed, a shortcut to the application will be created.
-
-### Option 2
 To set up the development environment and run the project, follow these steps:
 
 1. Clone this repository: `git clone https://github.com/coral2742/PAC-MAN.git`.
@@ -59,8 +51,10 @@ When you start the game, you will see two boards, among other elements. The larg
 
 In order to place the next ghosts from the lower board on the game board, you must select one of the ghosts by clicking on it, and then click on one of the free positions on the upper game board. A free square on the game board is represented by a gray square. The other squares may be occupied by another ghost or because there is an invalid white hole in the game.
 
+<p align="center">
+  <img src="img/English/GameWindow.png" alt="Game Window">
+</>
 
-![Game Window](img/VentanaJuego.png)
 
 #### Valid ticket codes
 The user will be asked to enter the store code and the ticket number that can be found on the copy of the purchase ticket. Each ticket code is associated with a minimum amount of 20 euros to be eligible for the PACMAN game. Below are some examples of valid tickets.
@@ -70,7 +64,7 @@ Store code: `33429_01`.
 |   Ticket Code   |  Amount  ($)  |     Validity    |
 |-----------------|---------------|-----------------|
 | 12314           | 10            | **Not** valid   |
-| 24572           | 110,75        | Valid           |
+| 24672           | 110,75        | Valid           |
 | 36517           | 25,85         | Valid           |
 | 16416           | 20            | Valid           |
 | 68234           | 75            | Valid           |
@@ -87,9 +81,11 @@ The player starts the game with 0 points and they will be added to the score cou
 - **Group of 6 ghosts**: increase 5000 points.
 - **Group of 7 ghosts**: increase 10000 points.
 
-In a round, if 5 or more ghosts of the Head type are grouped together at once, the game will end and 20,000 points will be added.
+In a round, if 5 or more ghosts of the Cabecilla type are grouped together at once, the game will end and 20,000 points will be added.
 
-![Ghost types](img/TiposFantasmas.png)
+<p align="center">
+  <img src="img/Spanish/TiposFantasmas.png" alt="Ghost types">
+</>
 
 
 ### Prize selection
@@ -97,11 +93,15 @@ If the player finishes the game and wins, he/she will access the prize selection
 
 When selecting a prize, a panel is displayed on the right with details such as name, image, description and cost in points. The quantity can be chosen and there are buttons to add or remove units. If the available points are exceeded or too many units are selected, a warning message is displayed.
 
-![Awards Window](img/VentanaPremios.png)
+<p align="center">
+  <img src="img/English/PrizesWindow.png" alt="Awards Window">
+</>
 
 To continue, at least one award must be selected. When confirming, the user is asked for his ID and is warned that he will lose the remaining points. A confirmation window is displayed with the selected prizes. If you are not satisfied, you can go back. After confirming, a file is generated with ID, store code and prize codes to claim them at the store. When finished, the application restarts for a new ticket registration.
 
-![Award Confirmation Window](img/VentanaConfirmacionPremios.png)
+<p align="center">
+  <img src="img/English/ConfirmPrizesWindow.png" alt="Award Confirmation Window">
+</>
 
 
 
@@ -116,7 +116,9 @@ If the player finishes the game and wins, he will have the option to choose priz
 
 Otherwise, a window will appear informing the player that the game is over with a confirmation button that will take him to the start window.
 
-![End of Game Window](img/VentanaFinPartida.png)
+<p align="center">
+  <img src="img/English/GameOverWindow.png" alt="End of Game Window">
+</>
 
 
 ## Libraries and resources used
@@ -165,7 +167,9 @@ This project is distributed under the [MIT License](LICENSE). See the `LICENSE` 
 # PAC-MAN - De vuelta a los clásicos de los 80
 Proyecto realizado para la asignatura de Comunicación Persona Máquina. Se planteó desarrollar una aplicación visual en Java con Swing implementando un juego de estrategia con un tablero de juego y varios personajes basándose en el diseño de un videojuego de los años 80.
 
-![PAC-MAN - A game project for CPM](img/InicioPACMAN.png)
+<p align="center">
+  <img src="img/Spanish/VentanaInicio.png" alt="PAC-MAN - Un proyecto de juego para CPM">
+</>
 
 ## Tabla de contenidos
 - [PAC-MAN - De vuelta a los clásicos de los 80](#pac-man---de-vuelta-a-los-clásicos-de-los-80)
@@ -173,8 +177,6 @@ Proyecto realizado para la asignatura de Comunicación Persona Máquina. Se plan
   - [Introducción](#introducción)
   - [Estructura del proyecto](#estructura-del-proyecto)
   - [Instalación (Windows)](#instalación-windows)
-    - [Opción 1](#opción-1)
-    - [Opción 2](#opción-2)
   - [Instrucciones](#instrucciones)
     - [Cómo jugar](#cómo-jugar)
       - [Códigos de tickets válidos](#códigos-de-tickets-válidos)
@@ -212,14 +214,6 @@ El proyecto se estructura de la siguiente forma:
 
 
 ## Instalación (Windows)
-### Opción 1
-En el apartado de [Releases](https://github.com/coral2742/PAC-MAN/releases) se ha subido un instalador creado con InstallAnyWhere con la primera versión [v1.0.0](https://github.com/coral2742/PAC-MAN/releases/tag/v1.0.0) de PAC-MAN.
-
-- Descargar el archivo `.exe`.
-- Doble click en `PAC-MAN installer.exe` y seguir el instalador.
-- Una vez que se instale, se creará un acceso directo a la aplicación.
-
-### Opción 2
 Para configurar el entorno de desarrollo y ejecutar el proyecto, siga estos pasos:
 
 1. Clone este repositorio: `git clone https://github.com/coral2742/PAC-MAN.git`.
@@ -238,7 +232,9 @@ Al empezar la partida, se verán dos tableros, entre otros elementos. El tablero
 
 Para poder posicionar los siguientes fantasmas del tablero inferior sobre el tablero de juego, deberás seleccionar uno de los fantasmas haciendo click sobre el mismo, y seguido, hacer click en una de las posiciones libres del tablero de juego superior. Una casilla libre del tablero de juego, se representa con una casilla en gris. Las demás casillas, pueden estar ocupadas por otro fantasma, o bien, porque existe un hueco blanco inválido del juego.
 
-![Ventana de juego](img/VentanaJuego.png)
+<p align="center">
+  <img src="img/Spanish/VentanaJuego.png" alt="Ventana de juego">
+</>
 
 #### Códigos de tickets válidos
 Se le pedirá al usuario que introduzca el código de la tienda y el número de ticket que podrá encontrar en la copia del ticket de compra. Cada código de ticket, tiene asociado un importe cuyo mínimo para poder optar al juego PACMAN es de 20 euros. A continuación, se indican varios ejemplos de tickets válidos.
@@ -249,7 +245,7 @@ Código de tienda: `33429_01`
 |  Código de ticket  |  Importe (€)  |     Validez     |
 |--------------------|---------------|-----------------|
 | 12314              | 10            | **No** válido   |
-| 24572              | 110,75        | Válido          |
+| 24672              | 110,75        | Válido          |
 | 36517              | 25,85         | Válido          |
 | 16416              | 20            | Válido          |
 | 68234              | 75            | Válido          |
@@ -267,18 +263,24 @@ El jugador comienza la partida con 0 puntos y se irán sumando al contador de la
 
 En una ronda, si se agrupan 5 o más fantasmas de tipo Cabecilla de golpe, finalizará la partida y se añadirán 20000 puntos.
 
-![Tipos de fantasma](img/TiposFantasmas.png)
+<p align="center">
+  <img src="img/Spanish/TiposFantasmas.png" alt="Tipos de fantasma">
+</>
 
 ### Selección de premios
 Si el jugador finaliza la partida y gana, accederá a la ventana de selección de premios. En esta ventana, el jugador podrá filtrar los premios disponibles por categoría según el tipo de premio (Todos, Accesorios, Consolas o Videojuegos) o por puntos de forma ascendente o descendente.
 
 Al seleccionar un premio, se muestra un panel a la derecha con detalles como nombre, imagen, descripción y coste en puntos. Se puede elegir la cantidad y hay botones para añadir o eliminar unidades. Si se superan los puntos disponibles o se seleccionan demasiadas unidades, se muestra un mensaje de advertencia.
 
-![Ventana de Premios](img/VentanaPremios.png)
+<p align="center">
+  <img src="img/Spanish/VentanaPremios.png" alt="Ventana de Premios">
+</>
 
 Para continuar, se debe elegir al menos un premio. Al confirmar, se pide al usuario su DNI y se le advierte que perderá los puntos restantes. Se muestra una ventana de confirmación con los premios seleccionados. Si no está satisfecho, puede volver atrás. Después de confirmar, se genera un archivo con DNI, código de tienda y códigos de los premios para reclamarlos en la tienda. Al finalizar, la aplicación se reinicia para un nuevo registro de ticket.
 
-![Ventana de Confirmación de Premios](img/VentanaConfirmacionPremios.png)
+<p align="center">
+  <img src="img/Spanish/VentanaConfirmacionPremios.png" alt="Ventana de Confirmación de Premios">
+</>
 
 
 ### Fin de la partida
@@ -292,7 +294,9 @@ Si el jugador finaliza la partida y gana, tendrá la opción de elegir premios s
 
 En caso contrario, aparecerá una ventana informando al jugador de que la partida ha finalizado con un botón de confirmación que le llevará a la ventana de inicio.
 
-![Ventana de Fin de Partida](img/VentanaFinPartida.png)
+<p align="center">
+  <img src="img/Spanish/VentanaFinPartida.png" alt="Ventana de Fin de Partida">
+</>
 
 ## Librerías y recursos utilizados
 https://www.guioteca.com/los-80/la-historia-del-inolvidable-pac-man-el-videojuego-mas-famoso-de-la-historia/
